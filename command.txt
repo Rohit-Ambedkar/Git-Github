@@ -1,0 +1,62 @@
+
+clone=> cloning a repository on our local machine.
+Explanation-> ise github ki repository ko apne laptop pr copy krne k liye krte hai
+
+command-> git clone <-link jo https bala->
+
+
+status - display the state of the code
+
+command-> git status
+
+ls se Sari files terminal par dikhai deti hai(isse hidden file nhi dikhti)
+
+command-> ls 
+
+sari files dekhne k liye.
+command-> ls -a
+
+ 
+
+/*Status*/
+
+four types status
+1.Untracked => new files that git doesn't yet track
+
+2.modified => changed file
+
+3.staged =>file is ready to committed
+
+4.unmodified => unchanged
+
+
+Add & commit
+
+add=>adds new or changed files in your working directory to the git staging area.
+
+command=> git add <-file name-> or git add .(isse sari file add ho jati hai)
+
+
+commit=> it is the record of change
+
+command=> git commit -m "message"
+
+
+push command
+
+push=> upload local repo content to remote repo
+
+command=>git push origin main
+
+
+Init command
+
+init - used to create a new git repo
+
+command=> git init
+        git commit -m "message"
+        git remote add origin <-link->
+        git remote -v (to verify remote)
+        git branch (to check branch)
+        git branch -M main (to change branch name)
+        git push origin main
